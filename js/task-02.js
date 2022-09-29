@@ -18,4 +18,5 @@ const ingredientsRef = ingredients.map(elem => {
 
 const listRef = document.querySelector("#ingredients");
 listRef.append(...ingredientsRef);
-console.log(listRef);
+
+console.log(ingredientsRef);
