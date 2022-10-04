@@ -14,4 +14,4 @@ decRef.addEventListener('click', (event) => {
 incRef.addEventListener('click', (event) => {
     counterValue += 1;
     valRef.textContent = counterValue;
-})
+});
